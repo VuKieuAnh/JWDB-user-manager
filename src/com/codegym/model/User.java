@@ -4,7 +4,7 @@ public class User {
     protected int id;
     protected String name;
     protected String email;
-    protected String address;
+    protected String country;
 
     public User() {
     }
@@ -13,7 +13,7 @@ public class User {
         this.id = id;
         this.name = name;
         this.email = email;
-        this.address = address;
+        this.country = address;
     }
 
     public int getId() {
@@ -40,11 +40,11 @@ public class User {
         this.email = email;
     }
 
-    public String getAddress() {
-        return address;
+    public String getCountry() {
+        return country;
     }
 
-    public void setAddress(String address) {
-        this.address = address;
+    public void setCountry(String country) {
+        this.country = country;
     }
 }
